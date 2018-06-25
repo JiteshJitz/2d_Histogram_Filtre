@@ -39,7 +39,7 @@ using namespace std;
            0.25 0.25
 */
 vector< vector <float> > initialize_beliefs(vector< vector <char> > grid) {
-	vector< vector <float> > newGrid;
+	//vector< vector <float> > newGrid;
 	int height = grid.size();
 	 int width = grid[0].size();
 	 int area = height * width;
@@ -94,7 +94,7 @@ vector< vector <float> > sense(char color,
 	float p_hit,
 	float p_miss)
 {
-	vector< vector <float> > newGrid;
+	//vector< vector <float> > newGrid;
 
 	// your code here
 	int height = grid.size();
@@ -158,7 +158,7 @@ vector< vector <float> > move(int dy, int dx,
 	float blurring)
 {
 
-	vector < vector <float> > newGrid;
+	//vector < vector <float> > newGrid;
 
 	// your code here
 	int h = beliefs.size();
